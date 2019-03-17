@@ -1,0 +1,58 @@
+<!--pages/posts/post.wxml-->
+<view>
+  <swiper vertical="{{false}}"
+          indicator-dots="true"
+          autoplay="true"
+          indicator-active-color="green">
+    <swiper-item><image src='/images/post/xiaolong.jpg' /></swiper-item>
+    <swiper-item><image src='/images/post/sls.jpg' /></swiper-item>
+    <swiper-item><image src='/images/post/vr.png' /></swiper-item>
+  </swiper>
+  <view class="post-container">
+    <view class="post-author-date">
+      <image class="post-author" src="/images/avatar/1.png" />
+      <text class="post-date" selectable="false" space="false" decode="false">Nov 25 2016</text>
+    </view>
+    <text class="post-title" selectable="false" space="false" decode="false">
+      时间段那我
+    </text>
+    <image class="post-image" src="/images/post/crab.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+    <text class="post-content" selectable="false" space="false" decode="false">
+      文字简介文字简介文字简介文字简介文字简介文字简介文字简介文字简介文字简介文字简介文字简介文字简介文字简介文字简介文字简介文字简介
+    </text>
+    <view class="post-like" hover-class="none" hover-stop-propagation="false">
+      <view class="post-like-item" hover-class="none" hover-stop-propagation="false">
+        <image class="post-like-image" src="../../images/icon/chat.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""></image>
+        <text class="post-like-text">92</text>
+      </view>
+      <view class="post-like-item" hover-class="none" hover-stop-propagation="false">
+        <image class="post-like-image" src="../../images/icon/view.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""></image>
+        <text class="post-like-text">65</text>
+      </view>
+    </view>
+  </view>
+  <view class="post-container">
+    <view class="post-author-date">
+      <image class="post-author" src="/images/avatar/1.png" />
+      <text class="post-date" selectable="false" space="false" decode="false">Nov 25 2016</text>
+    </view>
+    <text class="post-title" selectable="false" space="false" decode="false">
+      时间段那我
+    </text>
+    <image class="post-image" src="/images/post/crab.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+    <text class="post-content" selectable="false" space="false" decode="false">
+      文字简介文字简介文字简介文字简介文字简介文字简介文字简介文字简介文字简介文字简介文字简介文字简介文字简介文字简介文字简介文字简介
+    </text>
+    <view class="post-like" hover-class="none" hover-stop-propagation="false">
+      <view class="post-like-item" hover-class="none" hover-stop-propagation="false">
+        <image class="post-like-image" src="../../images/icon/chat.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""></image>
+        <text class="post-like-text">92</text>
+      </view>
+      <view class="post-like-item" hover-class="none" hover-stop-propagation="false">
+        <image class="post-like-image" src="../../images/icon/view.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""></image>
+        <text class="post-like-text">65</text>
+      </view>
+    </view>
+  </view>
+</view>
+  
